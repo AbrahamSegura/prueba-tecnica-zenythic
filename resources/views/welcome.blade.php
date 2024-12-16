@@ -57,7 +57,7 @@
 
                 <article class="mt-7 swiper new-games">
                 <div class="flex flex-row justify-between my-5">
-                    <h3 class="text-lg font-bold">Destacados</h3>
+                    <h3 class="text-lg font-bold">Nuevos Juegos</h3>
                     <div>
                         <button class="rounded-full bg-gray-700 w-7 h-7 border-2 border-white new-games-prev"> < </button>
                         <button class="rounded-full bg-gray-700 w-7 h-7 border-2 border-white new-games-next"> > </button>
@@ -69,7 +69,7 @@
                 
                 <article class="mt-7 swiper clasic">
                 <div class="flex flex-row justify-between my-5">
-                    <h3 class="text-lg font-bold">Destacados</h3>
+                    <h3 class="text-lg font-bold">Clásicos</h3>
                     <div>
                         <button class="rounded-full bg-gray-700 w-7 h-7 border-2 border-white clasic-prev"> < </button>
                         <button class="rounded-full bg-gray-700 w-7 h-7 border-2 border-white clasic-next"> > </button>
@@ -80,7 +80,7 @@
                 </article>
             </section>
             <section class="flex flex-col w-full m-auto mt-20 h-96 relative bg-banner-color px-10 rounded-lg">
-                <span class="banner-decoration " > </span>
+                <span class="banner-decoration" > </span>
                 <article class="w-1/2 m-auto ml-0" >
                     <div class="text-5xl">Inserta texto de</div>
                     <div class="text-5xl">Tres lineas</div>
@@ -93,7 +93,7 @@
             <section class="mt-7">
             <article class="mt-7 swiper all-games">
                 <div class="flex flex-row justify-between my-5">
-                    <h3 class="text-lg font-bold">Destacados</h3>
+                    <h3 class="text-lg font-bold">Todos los Juegos</h3>
                     <div>
                         <button class="rounded-full bg-gray-700 w-7 h-7 border-2 border-white all-games-prev"> < </button>
                         <button class="rounded-full bg-gray-700 w-7 h-7 border-2 border-white all-games-next"> > </button>
