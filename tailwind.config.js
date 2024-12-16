@@ -14,6 +14,10 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors:{
+                'vibrant-pink': '#ff308a', 
+                'orange': '#ff3030'
+            }
         },
     },
     plugins: [],
