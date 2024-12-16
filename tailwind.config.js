@@ -16,7 +16,9 @@ export default {
             },
             colors:{
                 'vibrant-pink': '#ff308a', 
-                'orange': '#ff3030'
+                'orange': '#ff3030',
+                'banner-color': '#172029',
+                'footer-color': '#06090d'
             },  
             animation:{
                 Hbounce: 'Hbounce .4s infinite',
