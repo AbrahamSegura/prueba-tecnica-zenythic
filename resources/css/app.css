@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+.game-container{
     background-color:#172029;
     background-image: url('/img/background.png');
     background-size: 100%;
