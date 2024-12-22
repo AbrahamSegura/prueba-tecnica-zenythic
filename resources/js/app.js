@@ -1,8 +1,12 @@
 import './bootstrap';
-import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+import $ from 'jquery';
+import Swiper from 'swiper';
+import 'swiper/css'
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
 import { allGames, games1, games2, games3 } from './images';
-import loteriaImg from '../../img/loteria.png'
-import pagosImg from '../../img/pagos.png'
+import loteriaImg from '../../img/loteria.png';
+import pagosImg from '../../img/pagos.png';
 
 
 $('#play-more').hover(()=>{
@@ -45,10 +49,10 @@ const createSwiper = (name) =>{
 
   const prev = `.${name}-prev`
   const next = `.${name}-next`
-  console.log($(swiperCont))
   $(swiperCont).append(fragment)
   const swiper = `.${name}`
   new Swiper( swiper , {
+    modules: [Navigation],
     watchSlidesProgress: true,
     slidesPerView: 4,
     spaceBetween: 15,
