@@ -16,6 +16,7 @@ export default {
             },
             colors:{
                 'vibrant-pink': '#ff308a', 
+                'back-dark': '#0a0e12',
                 'orange': '#ff3030',
                 'banner-color': '#172029',
                 'footer-color': '#06090d'
