@@ -14,10 +14,20 @@
     position: absolute;
     top: -1.5rem;
     right: 50%;
-    background: red;
+    background: #FF3030;
     width: 320px;
     height: calc(100% + 3rem);
     transform: skewX(15deg) translateX(+150%);
     border-radius: 20px;
     background-image: linear-gradient(0deg, #FF3093, #FF3030);
+}
+
+.scroll-styled{
+    scrollbar-color: #777 #172029;
+    scrollbar-width: thin;
+}
+
+.liked{
+    border-radius: 100%;
+    background-color: #FF3030;
 }
