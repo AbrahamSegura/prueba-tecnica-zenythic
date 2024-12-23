@@ -9,7 +9,6 @@ import 'swiper/css/scrollbar';
 import { Navigation, Autoplay, Scrollbar, FreeMode } from 'swiper/modules';
 import { allGames, games1, games2, games3 } from './images';
 import loteriaImg from '../../img/loteria.png';
-import pagosImg from '../../img/pagos.png';
 
 
 $('#play-more').hover(() => {
@@ -73,10 +72,6 @@ createSwiper('outstanding')
 createSwiper('new-games')
 createSwiper('clasic')
 createSwiper('all-games')
-
-$('#loteria').attr('src', loteriaImg)
-$('#pagos').attr('src', pagosImg)
-
 
 new Swiper('.game-card-swiper', {
   modules: [Scrollbar, FreeMode],

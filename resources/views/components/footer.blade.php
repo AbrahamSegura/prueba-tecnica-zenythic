@@ -1,6 +1,6 @@
 <footer
     class="flex flex-col w-full mt-7 bg-footer-color p-12">
-    <img id="loteria" alt="loteria">
+    <img src="https://res.cloudinary.com/dm2qtlnit/image/upload/v1734971777/fortunato/qm7xwqtydzemr3hkcasr.png" alt="loteria">
     <section class="flex my-4 text-white">
         <article class="w-1/3">
             <p>Lorem ipsum dolor sit amet consectetur
@@ -89,6 +89,6 @@
     <div class="flex justify-between m-2">
         <span>Casino Fortunato © Todos los derechos
             reservados, 2024</span>
-        <img id="pagos" alt="tipos de pago">
+        <img src="https://res.cloudinary.com/dm2qtlnit/image/upload/v1734971777/fortunato/cx0kccgxigi1ot0hw8ak.png" alt="tipos de pago">
     </div>
 </footer>
