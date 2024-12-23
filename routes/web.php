@@ -8,5 +8,5 @@ use function Pest\Laravel\post;
 
 Route::get('/', function () {
     return view('welcome');
-});
-Route::get('/front/deportes',SportsController::class);
+})->name('games');
+Route::get('/front/deportes',SportsController::class)->name('sport');
