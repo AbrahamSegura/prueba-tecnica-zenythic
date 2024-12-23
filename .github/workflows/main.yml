@@ -28,5 +28,4 @@ jobs:
       - name: Deploy to Vercel
         uses: vercel/deploy-action@v1
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-project: prueba-tecnica-casino-front
